@@ -28,6 +28,16 @@ video {
   max-width: 500px;
 }
 
+form{
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  display: flex;
+  gap: 3px;
+  cursor: pointer;
+}
+
 @media (max-width: 450px) {
   video {
     width: 350px;

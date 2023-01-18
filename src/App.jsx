@@ -27,19 +27,19 @@ export default function App() {
     <div className="container">
       <h1>Video Player</h1>
       <form>
-        <label htmlFor="spider">
+        <label htmlFor="spider" className="btn" >
           <input id="spider" type="radio" name="animal" value="spider" onChange={(e) => display(e)} />
           Spider
         </label>
-        <label htmlFor="deer">
+        <label htmlFor="deer" className="btn" >
           <input id="deer" type="radio" name="animal" value="deer" onChange={(e) => display(e)} />
           Deer
         </label>
-        <label htmlFor="snail">
+        <label htmlFor="snail" className="btn" >
           <input id="snail" type="radio" name="animal" value="snail" onChange={(e) => display(e)} />
           Snail
         </label>
-        <label htmlFor="cat">
+        <label htmlFor="cat" className="btn" >
           <input id="cat" type="radio" name="animal" value="cat" onChange={(e) => display(e)} />
           Cat
         </label>
